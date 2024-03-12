@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Student Registration Form</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    </head>
+    <body>
+        <!--Heading for the form-->
+        <h2>Student Registration Form</h2>
+        <!--Form starts here-->
+        <form action="#" method="post">
+             <!--Label and input for Date of Birth-->
+            <label for ="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            <br>
+            <label for="D.O.B">Date Of Birth</label>
+            <input type="date" id="D.O.B" name="D.O.B" required>
+            <br>
+             <!--Label and select for Gender-->
+            <label for="gender">Gender</label>
+            <select id="gender" name="gender" required>
+                <option value="">Select</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+            </select>
+            <br>
+             <!--Label and input for address-->
+            <label for="address">Address:</label>
+            <textarea id="address" name="address" required></textarea>
+            <br>
+            <!--Label and input for telephone-->
+            <label for="telephone">Telephone:</label>
+            <input type="tel" id="telephone" name="telephone" required>
+            <br>
+            <!--Label and input for Email address-->
+            <label for="email">Email address:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            <br>
+            <!--Label and input for course-->
+            <label for="course">Course:</label>
+            <input type="text" id="course" name="course" placeholder="Enter course taken" required>
+            <br>
+            <!--Submit and cancel buttons-->
+            <input type="submit" value="Register">
+            <input type="button" value="Cancel">
+        </form>
+        <!--Form ends here-->
+    </body>
+</html>
